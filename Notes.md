@@ -33,8 +33,7 @@ _Why internal locking is rarely assured?_
 
 * STL Will give basic thread assurance - Multiple threads can call `const` functions 
 * *READ ONLY != CONST* 
-
-  
+* *Per object locks != per type locks*
   
   
   
