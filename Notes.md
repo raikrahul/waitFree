@@ -43,4 +43,14 @@ _Why internal locking is rarely assured?_
   * Not just useful to be thread safe 
 
 
+`template <typename T>
+T CAS(T& value, T expected, T newVal)
+{
 
+ T temp = value; 
+ if ( temp == expected ) value = newVal; 
+ return temp;
+ }
+ 
+ 
+ 
