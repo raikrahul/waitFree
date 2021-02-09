@@ -1,4 +1,8 @@
 # Issues with Locks 
 
-_Locks do not compose_
+### Deadlocks 
+
+* One must acquire locks in order 
+
+
 
