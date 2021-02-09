@@ -43,7 +43,7 @@ _Why internal locking is rarely assured?_
   * Not just useful to be thread safe 
 
 
-`template <typename T>
+```template <typename T>
 T CAS(T& value, T expected, T newVal)
 {
 
@@ -52,5 +52,5 @@ T CAS(T& value, T expected, T newVal)
  return temp;
  }
  
- `
+ ```
  
